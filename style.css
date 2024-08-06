@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif, 'poppins';
+}
+
+
+.download{
+    height: 100px;
+    width: auto;
+}
+
+.hosting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    height: 40px;
+    width: auto;
+    margin: 30px 20px;
+}
+
+.english{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar ul button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.month{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+
+.everything{
+    width: 70%;
+}
+
+.up{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.pro{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.rupee{
+    margin-top: 20px;
+}
+
+.free{
+    font-weight: bold;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(114, 12, 209, 0.854);
+    color: white;
+    border: none;
+    width: 20%;
+    font-weight: bold;
+}
+
+.money{
+    background-color: rgb(214, 184, 242);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    border: none;
+}
+
+.check{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.women{
+    margin-top: 20px;
+}
+
+.women img{
+    height: 400px;
+    width: 100%;
+}
+
+.ai{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+}
+
+.ask{
+    padding: 10px;
+    border-radius: 99px;
+    width: auto;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .navbar ul{
+        width: 100%;
+        gap: 55px;
+    }
+
+
+    .navbar ul li{
+        padding: 10px 0;
+    }
+
+    .month{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .everything {
+        width: 100%;
+        text-align: center;
+    }
+
+    .up{
+        font-size: 1.2em;
+    }
+
+    .pro{
+        font-size: 1.1em;
+    }
+
+    .rupee{
+        font-size: 1.5em;
+    }
+
+    .free{
+        font-size: 0.9em;
+    }
+
+    .builder{
+        text-align: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button, .money {
+        width: 50%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .check{
+        font-size: 1.1em;
+    }
+
+    .money{
+        margin-top: 10px;
+    }
+
+    .women {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .women img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ai {
+        justify-content: center;
+        margin: 20px 0;
+        
+    }
+
+    .ask{
+        width: 50%;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 480px){
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .navbar ul{
+        width: 100%;
+        gap: 10px;
+    }
+
+
+    .navbar ul li{
+        padding: 5px 0;
+    }
+
+    .navbar ul button{
+        width: 20%;
+    }
+
+    .month{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .everything {
+        width: 100%;
+        text-align: center;
+    }
+
+    .up{
+        font-size: 1.3em;
+    }
+
+    .pro{
+        font-size: 1.2em;
+    }
+
+    .rupee{
+        font-size: 1.5em;
+    }
+
+    .free{
+        font-size: 0.8em;
+    }
+
+    .builder{
+        text-align: center;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .button, .money {
+        width: 50%;
+        padding: 15px;
+        font-size: 17px;
+    }
+
+    .check{
+        font-size: 1.2em;
+    }
+
+    .money{
+        margin-top: 10px;
+    }
+
+    .women {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .women img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ai {
+        justify-content: center;
+        margin: 20px 0;
+        
+    }
+
+    .ask{
+        width: 80%;
+        padding: 15px;
+    }
+}
